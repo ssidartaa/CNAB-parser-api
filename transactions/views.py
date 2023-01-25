@@ -9,6 +9,6 @@ class TransactionView(generics.ListCreateAPIView):
     queryset = Transaction.objects.all()
 
 
-class TransactionDetailView(generics.RetrieveDestroyAPIView):
+class TransactionDetailView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = TransactionSerializer
     queryset = Transaction.objects.all()
