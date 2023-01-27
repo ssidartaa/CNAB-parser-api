@@ -15,10 +15,10 @@ TRANSACTION_TYPE = {
 
 class Transaction(models.Model):
     type = models.CharField(max_length=22, choices=TRANSACTION_TYPE.items())
-    date = models.CharField(max_length=8)
-    value = models.CharField(max_length=10)
+    date = models.DateField(auto_now=False, auto_now_add=False)
+    value = models.DecimalField(max_digits=10, decimal_places=2)
     cpf = models.CharField(max_length=11)
     credit_card = models.CharField(max_length=12)
-    hour = models.CharField(max_length=6)
+    hour = models.TimeField(max_length=6)
     owner_name = models.CharField(max_length=14)
     store_name = models.CharField(max_length=19)
