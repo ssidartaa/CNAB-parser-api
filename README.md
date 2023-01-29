@@ -28,4 +28,5 @@
 - Caso queira rodar no docker utilizar o comando ``docker compose up`` (lemnbre-se de mudar a variavel POSTGRES_HOST para db, para poder rodar o docker)
 
 ## Remoto
-- Utilize o link do deploy da API: ````
+- Utilize o link do deploy da API: ``https://cnab-parser-api.onrender.com/api/transactions`` para utilizar o CRUD
+- Para documentação pode acessar: ``https://cnab-parser-api.onrender.com/docs/swagger-ui/`` ou ``https://cnab-parser-api.onrender.com/docs/redoc/``
