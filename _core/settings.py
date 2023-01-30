@@ -96,10 +96,7 @@ CORS_ALLOW_HEADERS = [
     "x-requested-with",
 ]
 
-CORS_ALLOW_ORIGINS = [
-    "http://localhost:5173/",
-    "http://localhost:3000/",
-]
+
 
 ROOT_URLCONF = "_core.urls"
 
