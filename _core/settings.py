@@ -96,8 +96,6 @@ CORS_ALLOW_HEADERS = [
     "x-requested-with",
 ]
 
-
-
 ROOT_URLCONF = "_core.urls"
 
 TEMPLATES = [
