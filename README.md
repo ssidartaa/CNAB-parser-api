@@ -1,4 +1,4 @@
-# CNAB parser API
+# CNAB-parser-api
 É uma api-rest com um CRUD totalmente feito, para uma aplicação full-stack onde trata, parseia e guarda dados de arquivos CNAB com os dados das movimentações financeiras de várias lojas.
 
 ### Com ela é possivel:
