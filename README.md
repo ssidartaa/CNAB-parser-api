@@ -22,9 +22,10 @@
 
 ## Local
 1. Clone este repositório
-2. Crie o ambiente virtual com o comando ``python -m venv venv`` e instale os pacotes requeridos pelo projeto com o comando ``pip install -r requirements.txt``
+2. Crie o ambiente virtual com o comando ``python -m venv venv``, inicie o ambiente virtual com o ``source venv/bin/activate`` e instale os pacotes requeridos pelo projeto com o comando ``pip install -r requirements.txt``
 3. Crie as variavéis de ambiente com o .env assim como estão no .env-example
-4. Rode a aplicação com o comando ``python manage.py runserver`` ou os testes com o comando ``pytest --testdox -vvs``
+4. Para rodar a aplicação no insomnia rode as migrations com o comando ``python manage.py migrate``
+5. Rode a aplicação com o comando ``python manage.py runserver`` ou os testes com o comando ``pytest --testdox -vvs``
 - Caso queira rodar no docker utilizar o comando ``docker compose up`` (lemnbre-se de mudar a variavel POSTGRES_HOST para db, para poder rodar o docker)
 
 ## Remoto
